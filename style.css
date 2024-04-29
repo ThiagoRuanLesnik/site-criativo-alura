@@ -1,4 +1,26 @@
-header{
-    background-color: rgba(0, 0, 0, 0.911);
-    color: rgba(21, 253, 0, 0.979);
+*{
+    margin: 0;
+    padding: 0;
 }
+
+.cabecalho {
+    background-color: rgba(0, 0, 0, 0.911);
+    color: #15fd00fa;
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+    padding: 24px 0;
+}
+
+.cabecalho-imagem{
+    width: 20%;
+}
+
+.cabecalho-lista-intem{
+    display: inline-block;
+    margin: 0 16px;
+}
+
+
+
+
